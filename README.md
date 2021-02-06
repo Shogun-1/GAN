@@ -4,4 +4,9 @@ This project consists of 2 parts.
 **Pix2Pix** architecture is used.  
 2. In the second part of the project NST algorithm is used. This approach uses style blending: the model takes content image,
 two different style images, mask image and applies given styles to different parts of the content image using the mask.  
-**VGG19** model is used as a CNN backbone. 
+**VGG19** model is used as a CNN backbone.
+  
+**UPD 04.02.2021** NST ver. 2 added:
+- code optimization
+- no need to upload mask image (it is auto-generated now)
+- fixed output image glitch
